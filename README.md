@@ -136,11 +136,11 @@
       - Running: 작업이 일시중단되지 않았고, 종료하지않고 진행 중임
       - Done: 작업이 완료되어 0을 반환하고 종료함
       - Done (code): 작업이 정상적으로 완료, 0이 아닌 코드를 반환했음
-      - Stopped: 작업이 일시중단됨
-        | (SIGTSTP) | SIGTSTP 신호가 작업을 일시 중단했음 |
-        | (SIGSTOP) | SIGSTOP 신호가 작업을 일시 중단했음 |
-        | (SIGTTIN) | SIGTTIN 신호가 작업을 일시 중단했음 |
-        | (SIGTTOU) | SIGTTOU 신호가 작업을 일시 중단했음 |
+      - Stopped: 작업이 일시중단됨  
+        | (SIGTSTP) | SIGTSTP 신호가 작업을 일시 중단했음 |  
+        | (SIGSTOP) | SIGSTOP 신호가 작업을 일시 중단했음 |  
+        | (SIGTTIN) | SIGTTIN 신호가 작업을 일시 중단했음 |  
+        | (SIGTTOU) | SIGTTOU 신호가 작업을 일시 중단했음 |  
 #  
   - **kill**
   
